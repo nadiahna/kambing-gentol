@@ -41,7 +41,7 @@ export default function Home() {
           </div>
           <div className="lg:w-1/2 relative">
             <div className="w-96 h-96 rounded-full bg-gradient-to-r from-indigo-500/20 to-pink-500/20 absolute blur-3xl"></div>
-            <Image src="/icon-logo.svg" alt="Kocheng" className="rounded-3xl relative z-10 w-full max-w-lg mx-auto" width={500} height={500} />
+            <Image src="/shiromo.png" alt="Kocheng" className="rounded-3xl relative z-10 w-full max-w-lg mx-auto" width={500} height={500} />
           </div>
         </div>
       </section>
