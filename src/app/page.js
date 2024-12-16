@@ -6,7 +6,14 @@ export default function Home() {
     <body className="bg-gradient-to-b from-indigo-900 via-indigo-800 to-indigo-900 text-white min-h-screen">
       {/* Navigation */}
       <nav className="container mx-auto px-4 py-6 flex justify-between items-center fixed top-0 left-0 right-0 bg-indigo-900/80 backdrop-blur-sm z-50">
-        <div className="text-2xl font-bold tracking-tight">🐐 KOCHENG 🎩</div>
+        {/* <div className="text-2xl font-bold tracking-tight">🐐  
+        SHIROMO 
+        <Image src="/sonic.png" alt="sonic-logo" width={30} height={30} /> </div> */}
+        <div className="flex items-center text-2xl font-bold tracking-tight">
+          <span> SHIROMO </span>
+          <Image src="/sonic.png" alt="sonic-logo" width={30} height={30} className="ml-2" />
+        </div>
+
         <div className="flex gap-6 items-center">
           <a href="#about" className="hover:text-indigo-300 transition-colors">About</a>
           <a href="#roadmap" className="hover:text-indigo-300 transition-colors">Roadmap</a>
@@ -14,48 +21,87 @@ export default function Home() {
       </nav>
 
       {/* <!-- Hero Section --> */}
-      <section className="container mx-auto px-4 pt-32 pb-16">
+      <section className="container mx-auto px-4 pt-20">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-1/2 space-y-8">
             <h1 className="text-7xl font-bold leading-tight">
-              Meet 
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400"> Kocheng Gentol</span>
+              Meet
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400"> SHIROMO </span>
             </h1>
             <p className="text-xl text-indigo-200 leading-relaxed">
-              The spirited mascot of Nadian Tech, bringing style and innovation to
-              the blockchain frontier! Just like Cat wif Necklece, but with extra
-              tigerpower! 🐐🎩🚀
+              The New spirited mascot of Sonic Labs, bringing style and innovation to
+              the blockchain frontier! Just like Holy White Cat with Necklaces, but with extra
+              tigerpower!
             </p>
             <div className="flex flex-wrap gap-4">
               <button className="group bg-gradient-to-r from-indigo-500 to-pink-500 px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-all hover:shadow-lg hover:shadow-indigo-500/25 flex items-center gap-2">
-                <a target="_blank" href="https://equalizer.exchange/swap?fromToken=0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE&amp;toToken=0x394e54b12A368497A224B6EFA5C28d6eEAf917A3">Buy KOCHENG and join the herd</a>
+                <a target="_blank" href="">Buy SHIROMO and join the eternity</a>
                 <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
                 </svg>
               </button>
 
-              <button className="border border-indigo-400 px-8 py-3 rounded-full font-semibold hover:bg-indigo-800/30 transition-all hover:shadow-lg hover:shadow-indigo-500/25">
-                <a target="_blank" href="https://dexscreener.com/fantom/0x36c945de13bf195b84fb5ccb5742fcdf3d1cb1a6">DEX Screener</a>
-              </button>
+              {/* <button className="border border-indigo-400 px-8 py-3 rounded-full font-semibold hover:bg-indigo-800/30 transition-all hover:shadow-lg hover:shadow-indigo-500/25">
+                <a target="_blank" href="">DEX Screener</a>
+              </button> */}
+            </div>
+            <div className="flex flex-wrap gap 4">
+              <h2 className="text-2xl font-bold mb-8 text-center">
+                Available In
+              </h2>
+              <div className="grid grid-flow-col auto-cols-max items-center gap-4">
+                <a target="_blank" href="" >
+                  <Image src="/logo-degen.png" alt="dagen-logo" width={200} height={100} />
+                </a>
+                <a target="_blank" href="">
+                  <Image src="/dex-screener.png" alt="dexscren-logo" width={200} height={100} />
+                </a>
+                <a target="_blank" href="">
+                  <Image src="/equalizer.png" alt="equalizer-logo" width={200} height={100} />
+                </a>
+              </div>
+
             </div>
           </div>
           <div className="lg:w-1/2 relative">
             <div className="w-96 h-96 rounded-full bg-gradient-to-r from-indigo-500/20 to-pink-500/20 absolute blur-3xl"></div>
-            <Image src="/shiromo.png" alt="Kocheng" className="rounded-3xl relative z-10 w-full max-w-lg mx-auto" width={500} height={500} />
+            <Image src="/shiromo.png" alt="Kocheng" className="rounded-3xl relative z-10 w-full max-w-lg mx-auto" width={500} height={500} /> <br></br>
+
+            <label className="text-red-500 font-bold text-2xl"> Contract: 0x1ce0422D5e0bF09465E13275Bfbc477BD7FF3074</label>
           </div>
         </div>
       </section>
+
+      {/* available in */}
+      {/* <section id="available" className="container mx-auto px-4 py-24">
+        <h2 className="text-5xl font-bold mb-8 text-center">
+          Available In
+        </h2>
+        <div className="grid grid-flow-col auto-cols-max items-center gap-4 justify-center">
+          <a target="_blank" href="" >
+            <Image src="/degen-new.png" alt="dagen-logo" width={200} height={100} />
+          </a>
+          <a target="_blank" href="">
+            <Image src="/dex-new.png" alt="dexscren-logo" width={200} height={100} />
+          </a>
+          <a target="_blank" href="">
+            <Image src="/equalizer-new.png" alt="equalizer-logo" width={200} height={100} />
+          </a>
+        </div>
+      </section> */}
+
+
 
       {/* <!-- About Section --> */}
       <section id="about" className="container mx-auto px-4 py-24">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-5xl font-bold mb-8 text-center">
-            About 
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400"> KOCHENG</span>
+            About
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400"> SHIROMO </span>
           </h2>
           <div className="bg-indigo-800/30 p-8 rounded-2xl backdrop-blur-sm space-y-6">
             <p className="text-lg text-indigo-200 leading-relaxed">
-              &quot;Welcome to the world of Goat with Hat, where blockchain meets
+              {/* &quot;Welcome to the world of SHIROMO, where blockchain meets
               boldness and a touch of quirky charm! 🐐✨ Born from the fast-paced
               labs of Sonic, this goat isn`t just stylish with its iconic hat—it`s
               a beacon for fun, community, and decentralized adventures. Whether
@@ -63,7 +109,11 @@ export default function Home() {
               hat, you&apos;re part of something truly unique. We&apos;re not just
               redefining speed on the blockchain; we&apos;re redefining how to have fun
               doing it. So grab your hat, join the herd, and let&apos;s headbutt into
-              the future together!&quot;
+              the future together!&quot; */}
+              Welcome to the world of SHIROMO, where blockchain meets boldness and a touch of quirky charm! ✨ Born from the fast-paced Sonic lab, this white cat is a sacred animal in Japan, here for decentralized fun, community, and adventure. Whether you're here for the memes, the atmosphere, or just to worship this sacred cat, you're part of something truly unique. We're not just redefining speed on the blockchain; we're redefining how to have fun doing it. So, join the herd, and let's head into the future together!”
+
+              What sets SHIROMO apart from the rest is not just its impeccable style - but also the technology underlying the entire ecosystem. Built on Sonic's cutting-edge blockchain infrastructure, the project combines the best of both worlds: the virality of meme culture and the toughness of serious technology.
+
             </p>
             <p className="text-lg text-indigo-200 leading-relaxed">
               What sets Goat with Hat apart isn&apos;t just its impeccable style – it&apos;s
@@ -89,19 +139,18 @@ export default function Home() {
               <div className="relative pl-8">
                 <div className="absolute left-0 w-3 h-3 -translate-x-1 mt-2 rounded-full bg-indigo-500"></div>
                 <h3 className="text-2xl font-bold mb-4 text-indigo-300">
-                  Phase 1: Get the Hat 🎩
+                  Phase 1:
                 </h3>
                 <div className="bg-indigo-800/30 p-6 rounded-xl backdrop-blur-sm">
                   <ul className="space-y-3 text-indigo-200">
                     <li>
-                      • Find the fanciest hat in town (it must scream &quot;blockchain
-                      chic&quot;).
+                      • Increase awareness and strengthen the community on the platform.
                     </li>
                     <li>
-                      • Convince the goat to wear it (trust us, this wasn`t easy).
+                      • Partnerships with influencers specialized in memecoins.X
                     </li>
-                    <li>• Launch memes so good they break the internet.</li>
-                    <li>• Build a website that makes other goats jealous.</li>
+                    <li>• Social Media Presence.</li>
+                    {/* <li>• Build a website that makes other goats jealous.</li> */}
                   </ul>
                 </div>
               </div>
@@ -109,21 +158,29 @@ export default function Home() {
               <div className="relative pl-8">
                 <div className="absolute left-0 w-3 h-3 -translate-x-1 mt-2 rounded-full bg-indigo-500"></div>
                 <h3 className="text-2xl font-bold mb-4 text-indigo-300">
-                  Phase 2: Herd Expansion 🐐🐐🐐
+                  Phase 2: Reaching $75,000 and Expansion to Exchanges
                 </h3>
                 <div className="bg-indigo-800/30 p-6 rounded-xl backdrop-blur-sm">
                   <ul className="space-y-3 text-indigo-200">
-                    <li>
+                    {/* <li>
                       • Host the first-ever &quot;Hat Enthusiast Goat Convention.&quot;
+                    </li> */}
+                    <li>
+                      • Prepare for exchange launches and consolidate liquidity.
                     </li>
                     <li>
-                      • Release Goat NFTs because the world needs them. Should we?
+                      • Degen Express AMM: Upon reaching a $75,000 market cap, $12,000 will
+                      automatically be deposited into liquidity on the Degen Express AMM, enabling
+                      direct trading.
                     </li>
                     <li>
+                      • Listings on Fantom DEX.
+                    </li>
+                    {/* <li>
                       • Convince more goats (and humans) to join the herd via
                       funny tweets.
-                    </li>
-                    <li>• Partner with brands that love goats in hats.</li>
+                    </li> */}
+                    {/* <li>• Partner with brands that love goats in hats.</li> */}
                   </ul>
                 </div>
               </div>
@@ -131,21 +188,21 @@ export default function Home() {
               <div className="relative pl-8">
                 <div className="absolute left-0 w-3 h-3 -translate-x-1 mt-2 rounded-full bg-indigo-500"></div>
                 <h3 className="text-2xl font-bold mb-4 text-indigo-300">
-                  Phase 3: Goat Domination 🌍
+                  Phase 3: Expansion and Strategic Alliances
                 </h3>
                 <div className="bg-indigo-800/30 p-6 rounded-xl backdrop-blur-sm">
                   <ul className="space-y-3 text-indigo-200">
                     <li>
-                      • Launch the Goat Metaverse (more bleating, less lag).
+                      • Strengthen the token’s position and expand the ecosystem..
                     </li>
                     <li>
-                      • Cross-chain integration because one blockchain isn`t
-                      enough.
+                      • Strategic Alliances: Forge partnerships with crypto projects within the Fantom and Sonic ecosystems to enhance collaboration and mutual growth.
+
                     </li>
-                    <li>
+                    {/* <li>
                       • Host &quot;Goat Fashion Week&quot; – spoiler: the hats are 🔥.
                     </li>
-                    <li>• Replace all mascots with goats in hats. Aim big.</li>
+                    <li>• Replace all mascots with goats in hats. Aim big.</li> */}
                   </ul>
                 </div>
               </div>
@@ -153,18 +210,19 @@ export default function Home() {
               <div className="relative pl-8">
                 <div className="absolute left-0 w-3 h-3 -translate-x-1 mt-2 rounded-full bg-indigo-500"></div>
                 <h3 className="text-2xl font-bold mb-4 text-indigo-300">
-                  Phase 4: The Goatstronaut Era 🚀🐐
+                  Phase 4: Reach a market cap of $1 million
                 </h3>
                 <div className="bg-indigo-800/30 p-6 rounded-xl backdrop-blur-sm">
                   <ul className="space-y-3 text-indigo-200">
-                    <li>• Partner with space agencies for zero-gravity goats.</li>
-                    <li>• Create interstellar memes that aliens can`t resist.</li>
+                    <li>• Establish SHIROMO as an iconic memecoin in SONIC Labs.</li>
+                    <li>• Expansion to Centralized Exchanges:
+                      Explore listings on platforms such as Binance, KuCoin, and others.</li>
                     <li>
-                      • Expand Goat with Hat to Mars (Elon, we`re calling you).
+                      • Implementation of DAO:
+                      The community decides the future of the project.
                     </li>
                     <li>
-                      • Retire the goat with a golden hat and write blockchain
-                      history.
+                      • Market Cap Goal: $1M
                     </li>
                   </ul>
                 </div>
@@ -178,17 +236,17 @@ export default function Home() {
       <footer id="social" className="container mx-auto px-4 py-8 border-t border-indigo-800/30">
         <div className="flex justify-between items-center">
           <div className="text-sm text-indigo-300">
-            © 2024 Goat with Hat. All rights reserved.
+            © 2024 SHIROMO. All rights reserved.
           </div>
           <div className="flex gap-4">
             {/* <!-- Telegram Icon --> */}
-            <a href="https://t.me/KOCHENGons" className="text-indigo-300 hover:text-indigo-100 transition-colors" target="_blank">
+            <a href="https://web.telegram.org/" className="text-indigo-300 hover:text-indigo-100 transition-colors" target="_blank">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.665 3.717l-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42l10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701l-.321 4.843c.47 0 .677-.216.94-.477l2.26-2.196l4.696 3.466c.866.48 1.488.233 1.704-.803l3.082-14.503c.315-1.265-.462-1.84-1.538-1.297z"></path>
               </svg>
             </a>
             {/* <!-- Twitter Icon --> */}
-            <a href="https://x.com/KOCHENGOnS" className="text-indigo-300 hover:text-indigo-100 transition-colors" target="_blank">
+            <a href="https://x.com/SHIRO_MONIC_" className="text-indigo-300 hover:text-indigo-100 transition-colors" target="_blank">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0017 2a4.48 4.48 0 00-4.44 5.37A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
