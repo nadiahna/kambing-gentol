@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import Image from "next/image";
 
 export default function Home() {
@@ -67,29 +68,13 @@ export default function Home() {
             <div className="w-96 h-96 rounded-full bg-gradient-to-r from-indigo-500/20 to-pink-500/20 absolute blur-3xl"></div>
             <Image src="/shiromo.png" alt="Kocheng" className="rounded-3xl relative z-10 w-full max-w-lg mx-auto" width={500} height={500} /> <br></br>
 
-            <label className="text-red-500 font-bold text-2xl"> Contract: 0x1ce0422D5e0bF09465E13275Bfbc477BD7FF3074</label>
+            {/* <label className="text-red-500 font-bold text-2xl"> Contract: 0x1ce0422D5e0bF09465E13275Bfbc477BD7FF3074</label> */}
+            <label className="text-2xl font-bold bg-gradient-to-r from-violet-700 via-red-500 to-pink-700 text-transparent bg-clip-text animate-pulse">
+              Contract: 0x1ce0422D5e0bF09465E13275Bfbc477BD7FF3074
+            </label>
           </div>
         </div>
       </section>
-
-      {/* available in */}
-      {/* <section id="available" className="container mx-auto px-4 py-24">
-        <h2 className="text-5xl font-bold mb-8 text-center">
-          Available In
-        </h2>
-        <div className="grid grid-flow-col auto-cols-max items-center gap-4 justify-center">
-          <a target="_blank" href="" >
-            <Image src="/degen-new.png" alt="dagen-logo" width={200} height={100} />
-          </a>
-          <a target="_blank" href="">
-            <Image src="/dex-new.png" alt="dexscren-logo" width={200} height={100} />
-          </a>
-          <a target="_blank" href="">
-            <Image src="/equalizer-new.png" alt="equalizer-logo" width={200} height={100} />
-          </a>
-        </div>
-      </section> */}
-
 
 
       {/* <!-- About Section --> */}
@@ -110,9 +95,10 @@ export default function Home() {
               redefining speed on the blockchain; we&apos;re redefining how to have fun
               doing it. So grab your hat, join the herd, and let&apos;s headbutt into
               the future together!&quot; */}
-              Welcome to the world of SHIROMO, where blockchain meets boldness and a touch of quirky charm! ✨ Born from the fast-paced Sonic lab, this white cat is a sacred animal in Japan, here for decentralized fun, community, and adventure. Whether you're here for the memes, the atmosphere, or just to worship this sacred cat, you're part of something truly unique. We're not just redefining speed on the blockchain; we're redefining how to have fun doing it. So, join the herd, and let's head into the future together!”
+              // eslint-disable-next-line react/no-unescaped-entities
+              Welcome to the world of SHIROMO, where blockchain meets boldness and a touch of quirky charm! ✨ Born from the fast-paced Sonic lab, this white cat is a sacred animal in Japan, here for decentralized fun, community, and adventure. Whether you&apos;re here for the memes, the atmosphere, or just to worship this sacred cat, you&apos;re part of something truly unique. We&apos;re not just redefining speed on the blockchain; we&apos;re redefining how to have fun doing it. So, join the herd, and let&apos;s head into the future together!”
 
-              What sets SHIROMO apart from the rest is not just its impeccable style - but also the technology underlying the entire ecosystem. Built on Sonic's cutting-edge blockchain infrastructure, the project combines the best of both worlds: the virality of meme culture and the toughness of serious technology.
+              What sets SHIROMO apart from the rest is not just its impeccable style - but also the technology underlying the entire ecosystem. Built on Sonic&apos;s cutting-edge blockchain infrastructure, the project combines the best of both worlds: the virality of meme culture and the toughness of serious technology.
 
             </p>
             <p className="text-lg text-indigo-200 leading-relaxed">
