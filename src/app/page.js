@@ -96,9 +96,9 @@ export default function Home() {
               doing it. So grab your hat, join the herd, and let&apos;s headbutt into
               the future together!&quot; */}
               // eslint-disable-next-line react/no-unescaped-entities
-              Welcome to the world of SHIROMO, where blockchain meets boldness and a touch of quirky charm! ✨ Born from the fast-paced Sonic lab, this white cat is a sacred animal in Japan, here for decentralized fun, community, and adventure. Whether you’re here for the memes, the atmosphere, or just to worship this sacred cat, you’re part of something truly unique. We’re not just redefining speed on the blockchain; we’re redefining how to have fun doing it. So, join the herd, and let’s head into the future together!”
+              Welcome to the world of SHIROMO, where blockchain meets boldness and a touch of quirky charm! ✨ Born from the fast-paced Sonic lab, this white cat is a sacred animal in Japan, here for decentralized fun, community, and adventure. Whether you&rsquo;re here for the memes, the atmosphere, or just to worship this sacred cat, you&rsquo;re part of something truly unique. We&rsquo;re not just redefining speed on the blockchain; we&rsquo;re redefining how to have fun doing it. So, join the herd, and let&rsquo;s head into the future together!”
 
-              What sets SHIROMO apart from the rest is not just its impeccable style - but also the technology underlying the entire ecosystem. Built on Sonic’s cutting-edge blockchain infrastructure, the project combines the best of both worlds: the virality of meme culture and the toughness of serious technology.
+              What sets SHIROMO apart from the rest is not just its impeccable style - but also the technology underlying the entire ecosystem. Built on Sonic&rsquo;s cutting-edge blockchain infrastructure, the project combines the best of both worlds: the virality of meme culture and the toughness of serious technology.
 
             </p>
             <p className="text-lg text-indigo-200 leading-relaxed">
