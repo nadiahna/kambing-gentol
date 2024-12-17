@@ -102,7 +102,7 @@ export default function Home() {
 
             </p>
             <p className="text-lg text-indigo-200 leading-relaxed">
-              What sets Goat with Hat apart isn’t just its impeccable style – it’s
+              What sets Goat with Hat apart isn&rsquo;t just its impeccable style &ndash; it&rsquo;s
               the underlying technology that powers the entire ecosystem. Built on
               Sonic cutting-edge blockchain infrastructure, this project combines
               the best of both worlds: the virality of meme culture and the
