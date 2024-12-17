@@ -179,7 +179,7 @@ export default function Home() {
                 <div className="bg-indigo-800/30 p-6 rounded-xl backdrop-blur-sm">
                   <ul className="space-y-3 text-indigo-200">
                     <li>
-                      • Strengthen the token’s position and expand the ecosystem..
+                      • Strengthen the token&rsquo;s position and expand the ecosystem..
                     </li>
                     <li>
                       • Strategic Alliances: Forge partnerships with crypto projects within the Fantom and Sonic ecosystems to enhance collaboration and mutual growth.
