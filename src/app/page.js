@@ -2,13 +2,14 @@
 import Image from "next/image";
 
 export default function Home() {
+  const currentYear = new Date().getFullYear();
 
   return (
     <body className="bg-gradient-to-r from-dark/40 via-sky-700/80 via-orange-500/70 to-red-600/70 text-white min-h-screen">
       {/* Navigation */}
       <nav className="container mx-auto px-4 py-6 flex justify-between items-center fixed top-0 left-0 right-0 bg-orange-500/30 backdrop-blur-sm z-50">
         <div className="flex items-center text-2xl font-bold tracking-tight">
-          <span> SHIROMO - COPY </span>
+          <span> SONIC GOAT  </span>
           <Image src="/sonic.png" alt="sonic-logo" width={30} height={30} className="ml-2" />
         </div>
 
@@ -24,16 +25,16 @@ export default function Home() {
           <div className="lg:w-1/2 space-y-8">
             <h1 className="text-7xl font-bold leading-tight">
               Meet
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400"> SHIROMO </span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400"> SONIC GOAT </span>
             </h1>
             <p className="text-xl text-red-200 leading-relaxed">
               The New spirited mascot of Sonic Labs, bringing style and innovation to
-              the blockchain frontier! Just like Holy White Cat with Necklaces, but with extra
+              the blockchain frontier! Just like wild goat, but with extra
               tigerpower!
             </p>
             <div className="flex flex-wrap gap-4">
               <button className="group bg-gradient-to-r from-red-500 to-orange-500 px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-all hover:shadow-lg hover:shadow-red-500/25 flex items-center gap-2">
-                <a target="_blank" href="">Buy SHIROMO and join the eternity</a>
+                <a target="_blank" href="">Buy SONIC GOAT and join the eternity</a>
                 <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
                 </svg>
@@ -64,10 +65,10 @@ export default function Home() {
 
           <div className="lg:w-1/2 relative">
             <div className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-r from-red-500/20 to-orange-500/20 absolute blur-3xl"></div>
-            <Image src="/shiromo.png" alt="Kocheng" className="rounded-3xl relative z-10 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto" width={500} height={500} />
+            <Image src="/SONIC_GOAT.png" alt="Kocheng" className="rounded-3xl relative z-10 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto" width={500} height={500} />
             <br />
             <label className="block text-center text-base sm:text-lg md:text-xl lg:text-2xl font-bold bg-gradient-to-r from-violet-700 via-red-500 to-orange-700 text-transparent bg-clip-text animate-pulse">
-              Contract: 0x1ce0422D5e0bF09465E13275Bfbc477BD7FF3074
+              Contract: 000000000000000000000000000000000000000000
             </label>
           </div>
         </div>
@@ -79,14 +80,14 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-5xl font-bold mb-8 text-center">
             About
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400"> SHIROMO </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400"> SONIC GOAT </span>
           </h2>
           <div className="bg-red-800/30 p-8 rounded-2xl backdrop-blur-sm space-y-6">
             <p className="text-lg text-red-200 leading-relaxed">
 
-              Welcome to the world of SHIROMO, where blockchain meets boldness and a touch of quirky charm! ✨ Born from the fast-paced Sonic lab, this white cat is a sacred animal in Japan, here for decentralized fun, community, and adventure. Whether you&rsquo;re here for the memes, the atmosphere, or just to worship this sacred cat, you&rsquo;re part of something truly unique. We&rsquo;re not just redefining speed on the blockchain; we&rsquo;re redefining how to have fun doing it. So, join the herd, and let&rsquo;s head into the future together!”
+              Welcome to the world of SONIC GOAT, where blockchain meets boldness and a touch of quirky charm! ✨ Born from the fast-paced Sonic lab, this wild goat , here for decentralized fun, community, and adventure. Whether you&rsquo;re here for the memes, the atmosphere, or just to worship this wilf goat, you&rsquo;re part of something truly unique. We&rsquo;re not just redefining speed on the blockchain; we&rsquo;re redefining how to have fun doing it. So, join the herd, and let&rsquo;s head into the future together!”
 
-              What sets SHIROMO apart from the rest is not just its impeccable style - but also the technology underlying the entire ecosystem. Built on Sonic&rsquo;s cutting-edge blockchain infrastructure, the project combines the best of both worlds: the virality of meme culture and the toughness of serious technology.
+              What sets SONIC GOAT apart from the rest is not just its impeccable style - but also the technology underlying the entire ecosystem. Built on Sonic&rsquo;s cutting-edge blockchain infrastructure, the project combines the best of both worlds: the virality of meme culture and the toughness of serious technology.
 
             </p>
             <p className="text-lg text-red-200 leading-relaxed">
@@ -175,7 +176,7 @@ export default function Home() {
                 </h3>
                 <div className="bg-red-800/30 p-6 rounded-xl backdrop-blur-sm">
                   <ul className="space-y-3 text-red-200">
-                    <li>• Establish SHIROMO as an iconic memecoin in SONIC Labs.</li>
+                    <li>• Establish  SONIC GOAT as an iconic memecoin in SONIC Labs.</li>
                     <li>• Expansion to Centralized Exchanges:
                       Explore listings on platforms such as Binance, KuCoin, and others.</li>
                     <li>
@@ -197,17 +198,17 @@ export default function Home() {
       <footer id="social" className="container mx-auto px-4 py-8 border-t border-red-800/30">
         <div className="flex justify-between items-center">
           <div className="text-sm text-red-300">
-            © 2024 SHIROMO. All rights reserved.
+            © {currentYear} SONIC GOAT. All rights reserved.
           </div>
           <div className="flex gap-4">
             {/* <!-- Telegram Icon --> */}
-            <a href="https://web.telegram.org/" className="text-red-300 hover:text-red-100 transition-colors" target="_blank">
+            <a href="" className="text-red-300 hover:text-red-100 transition-colors" target="_blank">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.665 3.717l-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42l10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701l-.321 4.843c.47 0 .677-.216.94-.477l2.26-2.196l4.696 3.466c.866.48 1.488.233 1.704-.803l3.082-14.503c.315-1.265-.462-1.84-1.538-1.297z"></path>
               </svg>
             </a>
             {/* <!-- Twitter Icon --> */}
-            <a href="https://x.com/SHIRO_MONIC_" className="text-red-300 hover:text-red-100 transition-colors" target="_blank">
+            <a href="" className="text-red-300 hover:text-red-100 transition-colors" target="_blank">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0017 2a4.48 4.48 0 00-4.44 5.37A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
